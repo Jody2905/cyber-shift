@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cyber Shift: Defend the Island</title>
+  <meta name="description" content="A cybersecurity game in four modes: triage SOC alerts, spot phishing, defend a network, and solve capture-the-flag puzzles. 20 levels.">
+  <link rel="icon" href="img/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="bar">
+  <button class="logo" id="home" aria-label="Cyber Shift home">
+    <img src="img/icon.svg" alt="" width="30" height="30">
+    <span>Cyber <em>Shift</em></span>
+  </button>
+  <div class="total"><span>⭐ <b id="totalStars">0</b> / 60</span><button class="icon-btn" id="reset" title="Clear saved progress">Reset</button></div>
+</header>
+<main id="screen"></main>
+<footer>Cyber Shift is a training game. Every company, person, address and message in it is invented.</footer>
+<script src="js/core.js"></script>
+<script src="js/soc-data.js"></script>
+<script src="js/soc.js"></script>
+<script src="js/phish-data.js"></script>
+<script src="js/phish.js"></script>
+<script src="js/defense.js"></script>
+<script src="js/ctf.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
